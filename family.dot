@@ -196,6 +196,8 @@ digraph EpiFamily {
     clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
     tsirvent [label="Thomas\nSirvent"];
+    jsainctavit [label="Jean\nSainctavit"];
+    amorvan [label="Adrien\nMorvan"];
 
     /*
     ** List of patronage links
@@ -274,10 +276,7 @@ digraph EpiFamily {
           mlecomte -> ikhilali;
           mlecomte -> cgorgeon;
           mlecomte -> mwenger;
-          mlecomte -> tsirvent;
-	  mlecomte -> tsadoune;
-	  //Thanina's graph
-	    tsadoune -> mstombellini;            
+          mlecomte -> tsirvent;	           
         kluyt -> mhan;
           mhan -> gbjarstal;
         kluyt -> mschoose;
@@ -328,7 +327,6 @@ digraph EpiFamily {
         // Samy's graph
         samy -> vanvliet;
         samy -> pviallet;
-        samy -> tsadoune;
         samy -> tome;
 	  //Tom-Eliott's graph
 	  tome -> aparou;
@@ -386,6 +384,11 @@ digraph EpiFamily {
     font -> mvidal;
     //MVidal's graph
       mvidal -> clevesque;
+      mvidal -> jsainctavit;
+      mvidal -> amorvan;
+      mvidal -> tsadoune;
+      //Thanina's graph
+	    tsadoune -> mstombellini;
     font -> dana
       // Danae's graph
       dana -> cel;
